@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="93" started-at="2020-04-18T14:02:05Z" finished-at="2020-04-18T14:02:05Z">
+  <suite name="Suite" duration-ms="114" started-at="2020-04-18T20:08:23Z" finished-at="2020-04-18T20:08:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="93" started-at="2020-04-18T14:02:05Z" finished-at="2020-04-18T14:02:05Z">
+    <test name="Test" duration-ms="114" started-at="2020-04-18T20:08:23Z" finished-at="2020-04-18T20:08:23Z">
       <class name="com.pooraa.merapooraa.module1">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.pooraa.merapooraa.module1@53ca01a2]" name="test1" duration-ms="47" started-at="2020-04-18T19:32:05Z" finished-at="2020-04-18T19:32:05Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.pooraa.merapooraa.module1@53ca01a2]" name="test1" duration-ms="32" started-at="2020-04-19T01:38:23Z" finished-at="2020-04-19T01:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.pooraa.merapooraa.module1@53ca01a2]" name="test2" duration-ms="3" started-at="2020-04-18T19:32:05Z" finished-at="2020-04-18T19:32:05Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.pooraa.merapooraa.module1@53ca01a2]" name="test2" duration-ms="0" started-at="2020-04-19T01:38:23Z" finished-at="2020-04-19T01:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
