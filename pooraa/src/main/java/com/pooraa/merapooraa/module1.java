@@ -6,7 +6,7 @@ public class module1
     @Test  
     public void test1()  
     {  
-        System.out.println("Hello javaTpoint!!!!");  
+        System.out.println("Hello javaTpoint!");  
     }  
       
     @Test  
