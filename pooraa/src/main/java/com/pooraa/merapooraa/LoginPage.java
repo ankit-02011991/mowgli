@@ -8,35 +8,25 @@ import utility.InitialiseLogging;
 
 public class LoginPage {
 	
-		public static WebDriver RedirectionToQuotePage(WebDriver driver)
+		public static WebDriver RedirectionToCatalogPage(WebDriver driver)
 				throws Exception {
 			    InitialiseLogging.IntialiseLoggingLog4j();			
-				Assert.assertTrue(ApplyCreditCards.CreditCardTitleOnApplyForm(driver).isDisplayed(), "");
-				String ExpectedText = GetCellDataFromXlsx.GetCellData("CreditCard", "String", "CreditCardsLandingPage", 1, 5);
-				String ActualText = ApplyCreditCards.CreditCardTitleOnApplyForm(driver).getText();
+				Assert.assertTrue(LoginPageLocators.MeraPooraaTitle(driver).isDisplayed(), "");
+				String ExpectedText = GetCellDataFromXlsx.GetCellData("merapooraa", "String", "loginpage", 1, 0);
+				String ActualText = LoginPageLocators.MeraPooraaTitle(driver).getText();
 				// compare both strings
 				CompareStrings.CompareTwoStrings(driver, ActualText, ExpectedText);
 				
-				Assert.assertTrue(ApplyCreditCards.MobileNoOnApplyForm(driver).isDisplayed(), "");
-				ApplyCreditCards.MobileNoOnApplyForm(driver)
-						.sendKeys(GetCellDataFromXlsx.GetCellData("CreditCard", "Numeric", "CreditCardsLandingPage", 1, 6));
+				Assert.assertTrue(LoginPageLocators.MeraPooraaUsername(driver).isDisplayed(), "");
+				LoginPageLocators.MeraPooraaUsername(driver)
+						.sendKeys(GetCellDataFromXlsx.GetCellData("merapooraa", "Numeric", "loginpage", 1, 5));
 				
-				Assert.assertTrue(ApplyCreditCards.MonthlyIncomeOnApplyForm(driver).isDisplayed(), "");
-				ApplyCreditCards.MonthlyIncomeOnApplyForm(driver)
-						.sendKeys(GetCellDataFromXlsx.GetCellData("CreditCard", "Numeric", "CreditCardsLandingPage", 1, 7));
+				Assert.assertTrue(LoginPageLocators.MeraPooraaPassword(driver).isDisplayed(), "");
+				LoginPageLocators.MeraPooraaPassword(driver)
+						.sendKeys(GetCellDataFromXlsx.GetCellData("merapooraa", "Numeric", "CreditCardsLandingPage", 1, 5));
 				
-				Assert.assertTrue(ApplyCreditCards.pincodeOnApplyForm(driver).isDisplayed(), "");
-				ApplyCreditCards.pincodeOnApplyForm(driver)
-						.sendKeys(GetCellDataFromXlsx.GetCellData("CreditCard", "Numeric", "CreditCardsLandingPage", 1, 8));
-				ApplyCreditCards.pincodesuggestionOnApplyForm(driver).click();
-				
-				Assert.assertTrue(ApplyCreditCards.DoYouHaveAnyCreditCardDropDownOnApplyForm(driver).isDisplayed(), "");
-				ApplyCreditCards.DoYouHaveAnyCreditCardDropDownOnApplyForm(driver).click();
-				Assert.assertTrue(ApplyCreditCards.PQ1ModalHeaderNoCardOptionCheckBoxOnApplyForm(driver).isDisplayed(), "");
-				ApplyCreditCards.PQ1ModalHeaderNoCardOptionCheckBoxOnApplyForm(driver).click();
-				ApplyCreditCards.PQ1ModalHeaderDoneButtonCheckBoxOnApplyForm(driver).click();
-				Assert.assertTrue(ApplyCreditCards.ViewOffersButtonOnApplyForm(driver).isDisplayed(), "");
-				ApplyCreditCards.ViewOffersButtonOnApplyForm(driver).click();
+			
+				LoginPageLocators.MeraPooraaLogin(driver).click();
 			return driver;
 		}
 

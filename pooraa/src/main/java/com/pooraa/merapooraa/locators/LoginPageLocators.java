@@ -4,12 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+public class LoginPageLocators {
 
 	private static WebElement element = null;
 
 	
-	public static WebElement MeraPooraaLoginPage(WebDriver driver) {
+	public static WebElement MeraPooraaTitle(WebDriver driver) {
 		element = driver.findElement(By.cssSelector(".main_form .title"));
 		return element;
 	}
