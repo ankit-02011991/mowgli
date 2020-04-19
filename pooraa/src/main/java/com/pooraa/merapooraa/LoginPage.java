@@ -2,7 +2,7 @@ package com.pooraa.merapooraa;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import com.pooraa.merapooraa.locators.*;
-import common.modules.CompareStrings;
+//import common.modules.CompareStrings;
 import utility.GetCellDataFromXlsx;
 import utility.InitialiseLogging;
 

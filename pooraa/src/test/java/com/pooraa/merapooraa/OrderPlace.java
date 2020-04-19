@@ -1,17 +1,17 @@
 package com.pooraa.merapooraa;
 
 import java.io.IOException;
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.pooraa.merapooraa.locators.*;
-import com.pooraa.merapooraa.LoginPage;
-import common.modules.CompareStrings;
-import utility.GetCellDataFromXlsx;
+//import com.pooraa.merapooraa.locators.*;
+//import com.pooraa.merapooraa.LoginPage;
+//import common.modules.CompareStrings;
+//import utility.GetCellDataFromXlsx;
 import utility.InitialiseBrowsersAndCaptureScreenshot;
 import utility.InitialiseLogging;
 import utility.Log;
