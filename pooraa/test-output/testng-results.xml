@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MeraPooraa" duration-ms="9435" started-at="2020-04-19T10:17:57Z" finished-at="2020-04-19T10:18:06Z">
+  <suite name="MeraPooraa" duration-ms="13425" started-at="2020-04-19T14:30:37Z" finished-at="2020-04-19T14:30:50Z">
     <groups>
     </groups>
-    <test name="MeraPooraaOrderPlace" duration-ms="9435" started-at="2020-04-19T10:17:57Z" finished-at="2020-04-19T10:18:06Z">
+    <test name="MeraPooraaOrderPlace" duration-ms="13425" started-at="2020-04-19T14:30:37Z" finished-at="2020-04-19T14:30:50Z">
       <class name="com.pooraa.merapooraa.OrderPlace">
-        <test-method status="PASS" signature="OpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="OpenHomePage" is-config="true" duration-ms="9092" started-at="2020-04-19T15:47:57Z" finished-at="2020-04-19T15:48:06Z">
+        <test-method status="PASS" signature="OpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="OpenHomePage" is-config="true" duration-ms="8518" started-at="2020-04-19T20:00:37Z" finished-at="2020-04-19T20:00:45Z">
           <params>
             <param index="0">
               <value>
@@ -23,55 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenHomePage -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="BeforeMethod" is-config="true" duration-ms="5" started-at="2020-04-19T15:48:06Z" finished-at="2020-04-19T15:48:06Z">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="BeforeMethod" is-config="true" duration-ms="6" started-at="2020-04-19T20:00:45Z" finished-at="2020-04-19T20:00:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="FAIL" signature="FillLoginPage()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="FillLoginPage" duration-ms="303" started-at="2020-04-19T15:48:06Z" finished-at="2020-04-19T15:48:06Z">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[XlsxDatamerapooraa.xlsx (The system cannot find the file specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: XlsxDatamerapooraa.xlsx (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at utility.GetCellDataFromXlsx.GetCellData(GetCellDataFromXlsx.java:26)
-	at com.pooraa.merapooraa.LoginPage.RedirectionToCatalogPage(LoginPage.java:22)
-	at com.pooraa.merapooraa.OrderPlace.FillLoginPage(OrderPlace.java:58)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method status="PASS" signature="FillLoginPage()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="FillLoginPage" duration-ms="4866" started-at="2020-04-19T20:00:45Z" finished-at="2020-04-19T20:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillLoginPage -->
-        <test-method status="PASS" signature="CloseCurrentSession()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="CloseCurrentSession" is-config="true" duration-ms="1" started-at="2020-04-19T15:48:06Z" finished-at="2020-04-19T15:48:06Z">
+        <test-method status="PASS" signature="CloseCurrentSession()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="CloseCurrentSession" is-config="true" duration-ms="1" started-at="2020-04-19T20:00:50Z" finished-at="2020-04-19T20:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseCurrentSession -->

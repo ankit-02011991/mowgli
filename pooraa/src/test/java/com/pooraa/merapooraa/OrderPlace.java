@@ -53,7 +53,7 @@ Log.endTestCase("URL compared");
 }
 */
 
-@Test(priority = 1)
+@Test(priority = 0)
 public void FillLoginPage() throws Exception {
 	LoginPage.RedirectionToCatalogPage(driver);
 	Log.endTestCase("Test Case ended");

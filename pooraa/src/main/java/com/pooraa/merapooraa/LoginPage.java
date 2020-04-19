@@ -19,7 +19,7 @@ public class LoginPage {
 				
 				Assert.assertTrue(LoginPageLocators.MeraPooraaUsername(driver).isDisplayed(), "");
 				LoginPageLocators.MeraPooraaUsername(driver)
-						.sendKeys(GetCellDataFromXlsx.GetCellData("merapooraa", "Numeric", "loginpage", 1, 3));
+						.sendKeys(GetCellDataFromXlsx.GetCellData("merapooraa", "String", "loginpage", 1, 4));
 				Thread.sleep(1000);
 				
 				Assert.assertTrue(LoginPageLocators.MeraPooraaPassword(driver).isDisplayed(), "");
