@@ -9,20 +9,21 @@ public class LoginPageLocators {
 	private static WebElement element = null;
 
 	
-	public static WebElement MeraPooraaTitle(WebDriver driver) {
+	/*public static WebElement MeraPooraaTitle(WebDriver driver) {
 		element = driver.findElement(By.cssSelector(".main_form .title"));
 		return element;
 	}
+	*/
 
 	
 	public static WebElement MeraPooraaUsername(WebDriver driver) {
-		element = driver.findElement(By.id("#usr"));
+		element = driver.findElement(By.id("usr"));
 		return element;
 	}
 
 	
 	public static WebElement MeraPooraaPassword(WebDriver driver) {
-		element = driver.findElement(By.id("#pwd"));
+		element = driver.findElement(By.id("pwd"));
 		return element;
 	}
 

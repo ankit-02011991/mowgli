@@ -42,7 +42,7 @@ public void BeforeMethod() throws IOException {
 InitialiseLogging.IntialiseLoggingLog4j();
 }
 
-@Test(priority = 0)
+/*@Test(priority = 0)
 @Parameters({ "URL" })
 public void VerifyMeraPooraaURL(String URL) throws Exception {
 Log.info("Check current URL");
@@ -51,7 +51,7 @@ String ExpectedURL = GetCellDataFromXlsx.GetCellData("CreditCard", "String", "Cr
 CompareStrings.CompareTwoStrings(driver, currentURL, ExpectedURL);
 Log.endTestCase("URL compared");
 }
-
+*/
 
 @Test(priority = 1)
 public void FillLoginPage() throws Exception {

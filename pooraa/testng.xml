@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MeraPooraa">
+  <test name="MeraPooraaOrderPlace">
+<parameter name="URL" value="https://mera.pooraa.com/"/> 
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.pooraa.merapooraa.OrderPlace"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
