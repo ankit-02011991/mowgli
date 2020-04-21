@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MeraPooraa" duration-ms="13425" started-at="2020-04-19T14:30:37Z" finished-at="2020-04-19T14:30:50Z">
+  <suite name="MeraPooraa" duration-ms="22181" started-at="2020-04-21T04:40:18Z" finished-at="2020-04-21T04:40:40Z">
     <groups>
     </groups>
-    <test name="MeraPooraaOrderPlace" duration-ms="13425" started-at="2020-04-19T14:30:37Z" finished-at="2020-04-19T14:30:50Z">
+    <test name="MeraPooraaOrderPlace" duration-ms="22181" started-at="2020-04-21T04:40:18Z" finished-at="2020-04-21T04:40:40Z">
       <class name="com.pooraa.merapooraa.OrderPlace">
-        <test-method status="PASS" signature="OpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="OpenHomePage" is-config="true" duration-ms="8518" started-at="2020-04-19T20:00:37Z" finished-at="2020-04-19T20:00:45Z">
+        <test-method status="PASS" signature="OpenHomePage(java.lang.String, java.lang.String)[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="OpenHomePage" is-config="true" duration-ms="11654" started-at="2020-04-21T10:10:18Z" finished-at="2020-04-21T10:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenHomePage -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="BeforeMethod" is-config="true" duration-ms="6" started-at="2020-04-19T20:00:45Z" finished-at="2020-04-19T20:00:45Z">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2020-04-21T10:10:30Z" finished-at="2020-04-21T10:10:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="FillLoginPage()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="FillLoginPage" duration-ms="4866" started-at="2020-04-19T20:00:45Z" finished-at="2020-04-19T20:00:50Z">
+        <test-method status="PASS" signature="FillLoginPage()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="FillLoginPage" duration-ms="10463" started-at="2020-04-21T10:10:30Z" finished-at="2020-04-21T10:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillLoginPage -->
-        <test-method status="PASS" signature="CloseCurrentSession()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="CloseCurrentSession" is-config="true" duration-ms="1" started-at="2020-04-19T20:00:50Z" finished-at="2020-04-19T20:00:50Z">
+        <test-method status="PASS" signature="CloseCurrentSession()[pri:0, instance:com.pooraa.merapooraa.OrderPlace@f2f2cc1]" name="CloseCurrentSession" is-config="true" duration-ms="1" started-at="2020-04-21T10:10:40Z" finished-at="2020-04-21T10:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseCurrentSession -->

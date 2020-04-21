@@ -34,9 +34,20 @@ public class LoginPageLocators {
 	}
 
 
+	public static WebElement MeraPooraaSeller(WebDriver driver) {
+		element = driver.findElement(By.cssSelector(".grey-color"));
+		return element;
+	}
+	
+	public static WebElement MeraPooraaProduct(WebDriver driver) {
+		element = driver.findElement(By.cssSelector(".prod-name"));
+		return element;
+	}
 		
-		
-		
+	public static WebElement MeraPooraaqty(WebDriver driver) {
+		element = driver.findElement(By.id("qty"));
+		return element;
+	}	
 		
 }
 

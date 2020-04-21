@@ -29,6 +29,11 @@ public class LoginPage {
 				
 			
 				LoginPageLocators.MeraPooraaLogin(driver).click();
+				Thread.sleep(100);
+				LoginPageLocators.MeraPooraaSeller(driver).click();
+				Thread.sleep(100);
+				LoginPageLocators.MeraPooraaProduct(driver).click();
+				
 			return driver;
 		}
 

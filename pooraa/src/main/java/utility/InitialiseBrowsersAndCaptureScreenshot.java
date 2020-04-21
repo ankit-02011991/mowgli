@@ -22,7 +22,7 @@ public class InitialiseBrowsersAndCaptureScreenshot {
 	public WebDriver initialiseDriver(String browser) throws IOException {
 		// read data from properties file
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("Properties\\data.properties");
+		FileInputStream fis = new FileInputStream("properties\\data.properties");
 		prop.load(fis);
 
 		String browserName = browser;
@@ -53,7 +53,7 @@ public class InitialiseBrowsersAndCaptureScreenshot {
 
 	public static void captureScreenshot(String methodName) throws IOException {
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("Properties\\data.properties");
+		FileInputStream fis = new FileInputStream("properties\\data.properties");
 		prop.load(fis);
 		// fetch ScreenshotPath path from properties file
 		String ScreenshotsPath = prop.getProperty("ScreenshotsPath");
