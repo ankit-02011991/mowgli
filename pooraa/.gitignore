@@ -2,3 +2,7 @@
 
 #test-output/
 #logs/
+
+
+/logs/
+/test-output/
