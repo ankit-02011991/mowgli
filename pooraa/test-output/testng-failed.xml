@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MeraPooraa]" parallel="none">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="URL" value="https://mera.pooraa.com/"/>
+  <test name="MeraPooraaOrderPlace(failed)" parallel="none">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="URL" value="https://mera.pooraa.com/"/>
+    <classes>
+      <class name="com.pooraa.merapooraa.OrderPlace">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="CloseCurrentSession"/>
+          <include name="OpenHomePage"/>
+          <include name="FillLoginPage"/>
+        </methods>
+      </class> <!-- com.pooraa.merapooraa.OrderPlace -->
+    </classes>
+  </test> <!-- MeraPooraaOrderPlace(failed) -->
+</suite> <!-- Failed suite [MeraPooraa] -->
